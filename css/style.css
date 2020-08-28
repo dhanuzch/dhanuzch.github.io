@@ -697,23 +697,23 @@ h6 {
 /* Call To Action Section
 --------------------------------*/
 
-#call-to-action {
+#donate {
   background: #2d2b46;
   background-size: cover;
   padding: 40px 0;
 }
 
-#call-to-action .cta-title {
+#donate .cta-title {
   color: #fff;
   font-size: 28px;
   font-weight: 700;
 }
 
-#call-to-action .cta-text {
+#donate .cta-text {
   color: #fff;
 }
 
-#call-to-action .cta-btn {
+#donate .cta-btn {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -727,7 +727,7 @@ h6 {
   color: #fff;
 }
 
-#call-to-action .cta-btn:hover {
+#donate .cta-btn:hover {
   background: #1bb1dc;
   border: 3px solid #1bb1dc;
 }
@@ -1286,7 +1286,7 @@ h6 {
 
 #footer .footer-top .footer-links {
   margin-bottom: 30px;
-  style="float:right"
+  
 
 }
 
@@ -1458,7 +1458,7 @@ h6 {
 --------------------------------------------------------------*/
 
 @media (min-width: 991px) {
-  #call-to-action .cta-btn-container {
+  #donate .cta-btn-container {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
