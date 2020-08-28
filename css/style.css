@@ -1,9 +1,4 @@
-/*
-  Theme Name: Rapid
-  Theme URL: https://bootstrapmade.com/rapid-multipurpose-bootstrap-business-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
-*/
+
 
 /*--------------------------------------------------------------
 # General
@@ -26,6 +21,17 @@ a:focus {
   color: #0a98c0;
   outline: none;
   text-decoration: none;
+}
+body::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: White;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #0a98c0;
 }
 
 p {

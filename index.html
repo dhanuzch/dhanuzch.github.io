@@ -27,12 +27,7 @@
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-    Theme Name: Rapid
-    Theme URL: https://bootstrapmade.com/rapid-multipurpose-bootstrap-business-template/
-    Author: BootstrapMade.com
-    License: https://bootstrapmade.com/license/
-  ======================================================= -->
+
 </head>
 
 <body>
@@ -46,7 +41,7 @@
       <div class="logo float-left">
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <h1 class="text-light"><a href="#intro" class="scrollto"><span>Dhanuzch</span></a></h1> -->
-        <a href="#header" class="scrollto"><img src="img/logo.png" alt="" class="img-fluid"></a> 
+        <a href="#intro" class="scrollto"><img src="img/logo.png" alt="" class="img-fluid"></a> 
       </div>
 
       <nav class="main-nav float-right d-none d-lg-block">
@@ -206,6 +201,51 @@
       </div>
     </section><!-- #services -->
 
+    
+
+    <!--==========================
+      Call To Action Section
+    ============================-->
+    <section id="call-to-action" class="wow fadeInUp">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-left">
+            <h3 class="cta-title">Support by paying</h3>
+            <p class="cta-text"> All my opensource hardware projects are self-funded. <br>Support me by donating with paypal :)</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <div id="paypal-button-container"></div>
+<script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD" data-sdk-integration-source="button-factory"></script>
+<script>
+  paypal.Buttons({
+      style: {
+          shape: 'pill',
+          color: 'blue',
+          layout: 'vertical',
+          label: 'pay',
+          
+      },
+      createOrder: function(data, actions) {
+          return actions.order.create({
+              purchase_units: [{
+                  amount: {
+                      value: '1'
+                  }
+              }]
+          });
+      },
+      onApprove: function(data, actions) {
+          return actions.order.capture().then(function(details) {
+              alert('Transaction completed by ' + details.payer.name.given_name + '!');
+          });
+      }
+  }).render('#paypal-button-container');
+</script>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- #call-to-action -->
     <!--==========================
       Why Us Section
     ============================-->
@@ -288,24 +328,6 @@
 
       </div>
     </section>
-
-    <!--==========================
-      Call To Action Section
-    ============================-->
-    <section id="call-to-action" class="wow fadeInUp">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-9 text-center text-lg-left">
-            <h3 class="cta-title">Call To Action</h3>
-            <p class="cta-text"> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-          <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#">Call To Action</a>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- #call-to-action -->
 
     <!--==========================
       Features Section
@@ -681,7 +703,7 @@
                 <div class="col-sm-6">
 
                   <div class="footer-info">
-                    <h3>Rapid</h3>
+                    <a href="#intro" class="scrollto"><img src="img/logo.png" alt="" class="img-fluid"></a> 
                     <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
                   </div>
 
@@ -773,16 +795,10 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong>Rapid</strong>. All Rights Reserved
+        &copy; Copyright <strong>Dhanuzch</strong>. All Rights Reserved
       </div>
       <div class="credits">
-        <!--
-          All the links in the footer should remain intact.
-          You can delete the links only if you purchased the pro version.
-          Licensing information: https://bootstrapmade.com/license/
-          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Rapid
-        -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by <a href="https.//dhanuzch.github.io">Dhanuzch</a>
       </div>
     </div>
   </footer><!-- #footer -->
