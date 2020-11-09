@@ -132,8 +132,9 @@ h6 {
 
 #topbar {
   padding: 0 0 10px 0;
-  font-size: 14px;
+  font-size: 10px;
   transition: all 0.5s;
+  Color: black;
 }
 
 #topbar .social-links {
@@ -177,8 +178,7 @@ h6 {
 #header.header-pages {
   height: 70px;
   padding: 15px 0;
-  background-color: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);
+  background-color: black;
 }
 
 #header.header-scrolled #topbar,
@@ -193,14 +193,12 @@ h6 {
   line-height: 1;
   font-weight: 400;
   letter-spacing: 3px;
-  text-transform: uppercase;
 }
 
 #header .logo h1 a,
 #header .logo h1 a:hover {
   color: white;
-  text-decoration: none;
-}
+  font-family: 'Caveat', cursive;}
 
 #header .logo img {
   padding: 0;
@@ -316,8 +314,7 @@ h6 {
   opacity: 0;
   visibility: hidden;
   padding: 10px 0;
-  background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  background: white;
   transition: ease all 0.3s;
 }
 
@@ -350,6 +347,7 @@ h6 {
   content: "\f107";
   font-family: FontAwesome;
   padding-left: 10px;
+  color:white;
 }
 
 .main-nav .drop-down .drop-down ul {
@@ -397,7 +395,7 @@ h6 {
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #fff;
+  color:white);
   padding: 10px 20px;
   font-weight: 500;
 }
@@ -475,7 +473,7 @@ h6 {
 }
 
 .mobile-nav-active .mobile-nav-toggle i {
-  color: #fff;
+  color: white;
 }
 
 /*--------------------------------------------------------------
