@@ -198,7 +198,8 @@ h6 {
 #header .logo h1 a,
 #header .logo h1 a:hover {
   color: white;
-  font-family: 'Caveat', cursive;}
+  font-family: 'Caveat', cursive;
+}
 
 #header .logo img {
   padding: 0;
@@ -395,7 +396,7 @@ h6 {
 .mobile-nav a {
   display: block;
   position: relative;
-  color:white);
+  color:white;
   padding: 10px 20px;
   font-weight: 500;
 }
