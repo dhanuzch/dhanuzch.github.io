@@ -5,7 +5,7 @@
 --------------------------------------------------------------*/
 
 body {
-  background: #fff;
+  background: black;
   color: #444;
   font-family: "Open Sans", sans-serif;
 }
@@ -198,7 +198,7 @@ h6 {
 
 #header .logo h1 a,
 #header .logo h1 a:hover {
-  color: #413e66;
+  color: white;
   text-decoration: none;
 }
 
@@ -220,12 +220,12 @@ h6 {
   width: 100%;
   height: 100vh;
   position: relative;
-  background: #f5f8fd url("../img/intro-bg.jpg") center top no-repeat;
+  background: black;
   background-size: cover;
 }
 
 #intro .intro-info h2 {
-  color: #413e66;
+  color: white;
   margin-bottom: 40px;
   font-size: 48px;
   font-weight: 700;
@@ -256,6 +256,14 @@ h6 {
   background: #0a98c0;
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+  flex: 1 auto;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -283,7 +291,7 @@ h6 {
 .main-nav a {
   display: block;
   position: relative;
-  color: #413e66;
+  color: white;
   padding: 10px 15px;
   transition: 0.3s;
   font-size: 14px;
@@ -479,7 +487,7 @@ h6 {
 
 .section-header h3 {
   font-size: 36px;
-  color: #413e66;
+  color: white;
   text-align: center;
   font-weight: 700;
   position: relative;
@@ -487,7 +495,7 @@ h6 {
 }
 .sub-section-header h4 {
   font-size: 36px;
-  color: #413e66;
+  color: white;
   text-align: left;
   font-weight: 700;
   position: relative;
@@ -507,7 +515,7 @@ h6 {
 --------------------------------*/
 
 .section-bg {
-  background: #f5f8fd;
+  background: black;
 }
 
 /* About Us Section
@@ -522,7 +530,7 @@ h6 {
 }
 
 #about .about-content h2 {
-  color: #413e66;
+  color: white;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
@@ -672,7 +680,7 @@ h6 {
   font-size: 24px;
   font-weight: 600;
   margin-left: 56px;
-  color: #413e66;
+  color: white;
   margin-bottom: 5px;
 }
 
@@ -773,7 +781,7 @@ h6 {
   padding: 6px 10px;
   font-size: 16px;
   line-height: 20px;
-  color: #413e66;
+  color: white;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
@@ -1000,7 +1008,7 @@ h6 {
 }
 
 #contactform .form label {
-  color: #413e66;
+  color: white;
   font-weight: 500;
 }
 
@@ -1224,7 +1232,7 @@ h6 {
 #pricing .card .list-group-item {
   border: 0px;
   padding: 6px;
-  color: #413e66;
+  color: white;
   font-weight: 300;
 }
 
@@ -1346,7 +1354,7 @@ h6 {
   padding: 2px 0 2px 0;
   line-height: 1;
   font-family: "Montserrat", sans-serif;
-  color: #413e66;
+  color: white;
   font-weight: 400;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -1383,7 +1391,7 @@ h6 {
 #footer .footer-top h4 {
   font-size: 14px;
   font-weight: bold;
-  color: #413e66;
+  color: white;
   text-transform: uppercase;
   position: relative;
   padding-bottom: 10px;
@@ -1490,7 +1498,7 @@ h6 {
 }
 
 #footer .footer-top .form label {
-  color: #413e66;
+  color: white;
   font-weight: 500;
 }
 
