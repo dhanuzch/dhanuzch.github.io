@@ -212,6 +212,83 @@ h6 {
 }
 
 /*--------------------------------------------------------------
+# tools Section
+--------------------------------------------------------------*/
+
+#tools {
+  padding: 60px 0;
+  margin-left: 56px;
+  margin-right: 56px;
+
+
+}
+
+#tools .tools-wrap {
+  border-top: 1px solid #e0e5fa00;
+  border-left: 1px solid #e0e5fa00;
+  margin-bottom: 30px;
+
+
+}
+
+#tools .tool-logo {
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-right: 1px solid #e0e5fa00;
+  border-bottom: 1px solid #e0e5fa00;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0);
+  height: 160px;
+}
+
+#tools .tool-logo:hover img {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+#tools img {
+  transition: all 0.4s ease-in-out;
+}
+
+
+#tools .tools-content h2 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+#tools .tools-content h3 {
+  color: #696592;
+  font-weight: 400;
+  font-size: 22px;
+  font-style: italic;
+}
+
+/*
+#tools .tools-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+#tools .tools-content ul li {
+  padding-bottom: 10px;
+}
+
+#tools .tools-content ul li i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #1bb1dc;
+}
+*/
+/*--------------------------------------------------------------
 # Intro Section
 --------------------------------------------------------------*/
 
@@ -226,13 +303,20 @@ h6 {
 #intro .intro-info h2 {
   color: white;
   margin-bottom: 40px;
-  font-size: 48px;
+  font-size: 38px;
   font-weight: 700;
 }
 
 #intro .intro-info h2 span {
   color: #1bb1dc;
 }
+
+#intro .about-img {
+  width: 240px;
+  border-radius: 50%;
+  float: left;
+}
+
 
 #intro .intro-info .btn-get-started,
 #intro .intro-info .btn-services {
@@ -263,6 +347,8 @@ h6 {
   justify-content: center;
   margin: 0;
 }
+
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
