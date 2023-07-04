@@ -563,6 +563,96 @@ h6 {
   color: white;
 }
 
+/* about me section */
+/* Custom Carousel Styles */
+.carousel-inner img {
+  height: 100%;
+  object-fit: cover;
+}
+
+#aboutCarousel {
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 30px;
+  width: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-size: 30px 30px;
+}
+
+.carousel-indicators li {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-indicators .active {
+  background-color: #333;
+}
+
+.about-content {
+  background-color: #f9f9f9;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-content h2 {
+  color: #333;
+  font-size: 36px;
+  margin-bottom: 10px;
+  
+}
+
+.about-content h3 {
+  color: #555;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.about-content ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.about-content ul li {
+  margin-bottom: 10px;
+}
+
+.about-content ul li i {
+  color: #28a745;
+  margin-right: 10px;
+}
+
+
+/* carousel */
+#introCarousel {
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#introCarousel .carousel-inner img {
+  height: 300px;
+  object-fit: cover;
+}
+
+.intro-info h2 {
+  font-size: 64px;
+  margin-bottom: 10px;
+}
+
+.intro-info h2 span {
+  font-size: 40px;
+  color: #555;
+}
+/*--------------------------------------------------------------
 /*--------------------------------------------------------------
 # Sections
 --------------------------------------------------------------*/
@@ -603,6 +693,27 @@ h6 {
   background: black;
 }
 
+
+.image-background {
+  border-radius: 20px;
+  position: relative;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%, 80%);
+  color: #fff; /* You can change text color here */
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+}
+
+.overlay-text h2 {
+  font-weight: 500; /* Make only the h2 text bold */
+}
+
 /* About Us Section
 --------------------------------*/
 
@@ -615,7 +726,7 @@ h6 {
 }
 
 #about .about-content h2 {
-  color: white;
+  color: black;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
